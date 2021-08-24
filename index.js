@@ -1,0 +1,1 @@
+let coordinates = [{0, 0}]
