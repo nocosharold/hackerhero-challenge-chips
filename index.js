@@ -1,92 +1,129 @@
-let coordinates1 = [
+/* Snake */
+let coordinates_1 = [
     {x: 0, y: 0},
-    {x: 49, y: 83.75},
-    {x: 145, y: 83.75},
-    {x: 192, y: 0},
-    {x: 288, y: 0},
-    {x: 337, y: 83.75},
-    {x: 384, y: 167.5},
-    {x: 480, y: 167.5},
-    {x: 529, y: 83.75},
-    {x: 625, y: 83.75},
-    {x: 672, y: 167.5},
-    {x: 721, y: 251.25},
-    {x: 768, y: 335},
-    {x: 721, y: 418.75},
-    {x: 625, y: 418.75},
-    {x: 576, y: 335},
-    {x: 480, y: 335},
-    {x: 433, y: 418.75},
-    {x: 337, y: 418.75},
-    {x: 288, y: 335},
-    {x: 241, y: 251.25},
-    {x: 145, y: 251.25},
-    {x: 49, y: 251.25},
-    {x: 0, y: 335},
-    {x: 49, y: 418.75},
-    {x: 96, y: 502.5}
+    {x: 1, y: 1},
+    {x: 3, y: 1},
+    {x: 4, y: 0},
+    {x: 6, y: 0},
+    {x: 7, y: 1},
+    {x: 8, y: 2},
+    {x: 10, y: 2},
+    {x: 11, y: 1},
+    {x: 13, y: 1},
+    {x: 14, y: 2},
+    {x: 15, y: 3},
+    {x: 16, y: 4},
+    {x: 15, y: 5},
+    {x: 13, y: 5},
+    {x: 12, y: 4},
+    {x: 10, y: 4},
+    {x: 9, y: 5},
+    {x: 7, y: 5},
+    {x: 6, y: 4},
+    {x: 5, y: 3},
+    {x: 3, y: 3},
+    {x: 1, y: 3},
+    {x: 0, y: 4},
+    {x: 1, y: 5},
+    {x: 2, y: 6}
 ];
 
-let coordinates2 = [
-    {x: 0, y: 0},
-    {x: 49, y: 83.75},
-    {x: 245, y: 83.75},
-    {x: 392, y: 0},
-    {x: 288, y: 0},
-    {x: 337, y: 83.75},
-    {x: 384, y: 167.5},
-    {x: 480, y: 167.5},
-    {x: 529, y: 83.75},
-    {x: 625, y: 83.75},
-    {x: 672, y: 167.5},
-    {x: 721, y: 251.25},
-    {x: 768, y: 335},
-    {x: 721, y: 418.75},
-    {x: 625, y: 418.75},
-    {x: 1176, y: 335},
-    {x: 480, y: 335},
-    {x: 433, y: 418.75},
-    {x: 337, y: 418.75},
-    {x: 288, y: 335},
-    {x: 2241, y: 251.25},
-    {x: 145, y: 251.25},
-    {x: 459, y: 251.25},
-    {x: 0, y: 335},
-    {x: 49, y: 418.75},
-    {x: 96, y: 502.5}
+/* Star */
+let coordinates_2 = [
+    {x: 10, y: 0},
+    {x: 9, y: 1},
+    {x: 11, y: 1},
+    {x: 4, y: 2},
+    {x: 6, y: 2},
+    {x: 8, y: 2},
+    {x: 10, y: 2},
+    {x: 12, y: 2},
+    {x: 14, y: 2},
+    {x: 16, y: 2},
+    {x: 5, y: 3},
+    {x: 7, y: 3},
+    {x: 9, y: 3},
+    {x: 11, y: 3},
+    {x: 13, y: 3},
+    {x: 15, y: 3},
+    {x: 6, y: 4},
+    {x: 8, y: 4},
+    {x: 10, y: 4},
+    {x: 12, y: 4},
+    {x: 14, y: 4},
+    {x: 7, y: 5},
+    {x: 9, y: 5},
+    {x: 11, y: 5},
+    {x: 13, y: 5},
+    {x: 6, y: 6},
+    {x: 8, y: 6},
+    {x: 12, y: 6},
+    {x: 14, y: 6},
+    {x: 5, y: 7},
+    {x: 7, y: 7},
+    {x: 13, y: 7},
+    {x: 15, y: 7}
 ];
 
-let random = Math.floor(Math.random * 2);
-let coordinates = [...coordinates1];
-
-// if(random === 0) {
-//     let coordinates[...coordinates1];
-// }else {
-//     let coordinates[...coordinates2];
-// }
-
-//every refresh must display random maps
-console.log(coordinates);
+/* V88 */
+let coordinates_3 = [
+    {x: 0, y: 0},
+    {x: 1, y: 1},
+    {x: 2, y: 2},
+    {x: 3, y: 3},
+    {x: 4, y: 4},
+    {x: 5, y: 3},
+    {x: 6, y: 2},
+    {x: 7, y: 1},
+    {x: 8, y: 0},
+    {x: 12, y: 0},
+    {x: 14, y: 0},
+    {x: 11, y: 1},
+    {x: 15, y: 1},
+    {x: 12, y: 2},
+    {x: 14, y: 2},
+    {x: 11, y: 3},
+    {x: 15, y: 3},
+    {x: 12, y: 4},
+    {x: 14, y: 4},
+    {x: 20, y: 0},
+    {x: 22, y: 0},
+    {x: 19, y: 1},
+    {x: 23, y: 1},
+    {x: 20, y: 2},
+    {x: 22, y: 2},
+    {x: 19, y: 3},
+    {x: 23, y: 3},
+    {x: 20, y: 4},
+    {x: 22, y: 4},
+];
 
 $(document).ready(function(){
-    //
-    let html_template = ``;
+    let counter = 0;
 
-    html_template += `<li class="lesson_chip active" style="transform: translate(${coordinates[0].x}px, ${coordinates[0].y}px);">`;
-    html_template += `<a href="#"><div class="forum_icon active"></div><i class="far fa-star"></i></a>`;
-    html_template += `</li>`;
-    
-    for(let coordinate_index = 1; coordinate_index < coordinates.length-1; coordinate_index++){
-        html_template += `<li class="challenge_chip" style="transform: translate(${coordinates[coordinate_index].x}px, ${coordinates[coordinate_index].y}px);">`;
-        html_template +=   `<a href="#"><span class="challenge_chip_number">x: ${coordinates[coordinate_index].x}, y: ${coordinates[coordinate_index].y}</span></a>`
-        html_template += `</li>`; 
+    $("body").on("click", ".generate", function(){ 
+        counter++;
+        generateMap(counter);
+    });
+
+    counter++;
+    generateMap(counter);
+});
+
+function generateMap(counter) {
+    let random_number = Math.floor(Math.random() * 3);
+    let coordinates = [[...coordinates_1], [...coordinates_2], [...coordinates_3]];
+    let set_coordinates = coordinates[random_number];
+    let map_tiles_template = ``;
+
+    for(let coordinate_index = 0; coordinate_index < set_coordinates.length ; coordinate_index++){
+        map_tiles_template += `<li class="challenge_chip" style="transform: translate(${ set_coordinates[coordinate_index].x * 49 }px, ${ set_coordinates[coordinate_index].y * 83.75 }px);">`;
+        map_tiles_template +=   `<a href="#"><span class="challenge_chip_number">x: ${ set_coordinates[coordinate_index].x }, y: ${ set_coordinates[coordinate_index].y }</span></a>`
+        map_tiles_template += `</li>`; 
     }
 
-
-    html_template += `<li class="lesson_chip" style="transform: translate(${coordinates[coordinates.length-1].x}px, ${coordinates[coordinates.length-1].y }px);">`;
-    html_template += `<a href="#"><div class="forum_icon"></div><i class="far fa-star"></i></a>`;
-    html_template += `</li>`;
-
-    $("ul").html(html_template);
-
-});
+    $("ul").html(map_tiles_template);
+    
+    let append_button = `<button class="generate">Generate ${ counter }</button>`;
+    $("body").append(append_button);
+}
